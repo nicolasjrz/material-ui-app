@@ -1,5 +1,6 @@
 import { Container } from "@mui/material";
 import { Search } from "./components/Search";
+import { UserCard } from "./components/UserCard";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       }}
     >
       <Search />
+      <UserCard />
     </Container>
   );
 }
